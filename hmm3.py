@@ -60,7 +60,7 @@ state_trans = normalize(state_trans, norm='l1', axis=1)
 test_obs = []
 test_states = []
 
-f = open('/Users/saikumar/Desktop/entest.txt','rb')
+f = open('/Users/manogna/Desktop/entest.txt','rb')
 line = f.readline()
 while line!= '':
 	parts = line.split('/')
